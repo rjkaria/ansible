@@ -1,0 +1,30 @@
+---
+tower.localdomain:
+  memory: 2048
+  cpus: 1
+  address: 192.168.121.128
+  box: tower-2.4.3
+
+jboss01.localdomain:
+  memory: 2048
+  cpus: 1
+  address: 192.168.121.11
+  box: geerlingguy/centos7
+
+jboss02.localdomain:
+  memory: 2048
+  cpus: 1
+  address: 192.168.121.10
+  box: geerlingguy/centos7
+
+haproxy01.localdomain:
+  memory: 2048
+  cpus: 1
+  address: 192.168.121.162
+  box: geerlingguy/centos7
+
+jboss03.localdomain:
+  memory: 2048
+  cpus: 1
+  address: 192.168.121.56
+  box: geerlingguy/centos7
